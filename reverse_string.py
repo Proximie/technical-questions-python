@@ -1,6 +1,6 @@
 # Reverse a string
 
-# For example: input: "cool" output: "looc"
+# For example, input: "cool" output: "looc"
 
 # Your code goes here!
 def execute(str):

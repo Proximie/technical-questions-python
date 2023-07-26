@@ -26,4 +26,8 @@
 
 # Your code goes here!
 def execute(old):
-    raise Exception("Not implemented yet")
+    new_dict = {}
+    for score, letters in old.items():
+        for letter in letters:
+            new_dict[letter.lower()] = score
+    return new_dict

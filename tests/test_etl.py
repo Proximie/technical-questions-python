@@ -57,5 +57,6 @@ class TestTransform(unittest.TestCase):
         }
         self.assertEqual(execute(old), expected)
 
+
 if __name__ == '__main__':
     unittest.main()

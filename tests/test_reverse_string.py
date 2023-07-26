@@ -1,6 +1,7 @@
 import unittest
 from reverse_string import execute
 
+
 class TestReverseString(unittest.TestCase):
     def test_handles_empty_string(self):
         self.assertEqual(execute(''), '')
@@ -19,6 +20,7 @@ class TestReverseString(unittest.TestCase):
 
     def test_reverses_even_sized_word(self):
         self.assertEqual(execute('drawer'), 'reward')
+
 
 if __name__ == '__main__':
     unittest.main()
