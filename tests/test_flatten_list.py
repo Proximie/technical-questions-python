@@ -2,7 +2,7 @@ import unittest
 from flatten_list import execute
 
 
-class TestFlattenArray(unittest.TestCase):
+class TestFlattenList(unittest.TestCase):
     def test_handles_empty_list(self):
         expected = []
         actual = execute([])
