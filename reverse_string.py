@@ -2,6 +2,6 @@
 
 # For example, input: "cool" output: "looc"
 
-# Your code goes here!
 def execute(input_string):
+    # Your code goes here!
     raise Exception("Not implemented yet")

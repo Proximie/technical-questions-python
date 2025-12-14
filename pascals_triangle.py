@@ -9,6 +9,6 @@
 # 1 4 6 4 1
 # # ... etc
 
-# Your code goes here!
 def execute(rows):
+    # Your code goes here!
     raise Exception("Not implemented yet")
